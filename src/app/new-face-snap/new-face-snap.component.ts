@@ -1,10 +1,10 @@
 import { Observable,  } from "rxjs";
-import { FaceSnap } from "../models/face-snap-model";
+import { FaceSnap } from "../core/models/face-snap-model";
 import { FormBuilder,FormGroup } from "@angular/forms";
 import { map } from "rxjs";
 import { Component } from "@angular/core";
 import { Validators } from "@angular/forms";
-import { FaceSnapsService } from "../service/face-snap.service";
+import { FaceSnapsService } from "../core/service/face-snap.service";
 import { Router } from "@angular/router";
 
 

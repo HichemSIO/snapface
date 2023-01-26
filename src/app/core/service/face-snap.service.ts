@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { FaceSnap } from 'src/app/models/face-snap-model';
+import { FaceSnap } from 'src/app/core/models/face-snap-model';
 
 @Injectable({
   providedIn: 'root'
@@ -9,7 +9,7 @@ export class FaceSnapsService {
     {
       id: 1,
       title: 'Luffy',
-      description: 'Le roi des pirate ça sera moi !',
+      description: 'Le roi des pirates ça sera moi !',
       imageUrl: 'https://anniversaire-celebrite.com/upload/250x333/monkey-d-luffy-250.jpg',
       createdDate: new Date(),
       snaps: 110,
